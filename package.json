@@ -1,6 +1,6 @@
 {
   "name": "vue-inject-attributes",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Vue Inject Attributes Directive - A vue.js directive for inject attributes on html.",
   "main": "index.js",
   "scripts": {

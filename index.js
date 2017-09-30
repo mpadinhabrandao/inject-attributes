@@ -11,7 +11,8 @@ function via_processElement(elem, attrs){
                 }
             break;
             case 'class':
-                elem.classList.add(item);
+                if(typeof item === 'string') item = item.split(" ");
+                item.forEach(function(cls){ elem.classList.add(cls); });
             break;
             default:
                 elem.setAttribute(key, item);
